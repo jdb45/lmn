@@ -37,6 +37,7 @@ connect to lmnop database
 `\dt`    shows tables
 
 `\d table_name`   shows info (and constraints) for a table
+
 other sql as expected
 
 postgres shell command cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
