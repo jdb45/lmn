@@ -49,12 +49,12 @@ with a value of the lmnop user's password
 
 (PC users, follow directions here. http://www.computerhope.com/issues/ch000549.htm. Mac & Linux users can edit ~/.bash_profile and add a new line `export POSTGRES_LMNOP_USER_PASSWORD=yourpassword` or use your own prefered method to set an environment variable).
 
-(Mac users may need to run these commands; these one time 
+(Mac users may need to run these commands; these one time; replace 9.5 with your version of PostGreSQL, if it's different
 
 `sudo ln -s /Library/PosgreSQL/9.5/lib/libssl.1.0.0.dylib /usr/local/lib
 sudo ln -s /Library/PosgreSQL/9.5/lib/libcrypto.1.0.0.dylib /usr/local/lib`
 
-And this when you start a new shell; or set it permanently in .bash_profile 
+And this when you start a new shell; or set it permanently in .bash_profile, again replace 9.5 with your version if different.
 `export DYLD_FALLBACK_LIBRARY_PATH=/Library/PostgreSQL/9.5/lib:$DYLD_LIBRARY_PATH`
 )
 
