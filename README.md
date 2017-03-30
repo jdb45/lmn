@@ -46,7 +46,7 @@ set environment variable called
 `POSTGRES_LMNOP_USER_PASSWORD`
 with a value of the lmnop user's password
 
-
+(PC users, follow directions here. http://www.computerhope.com/issues/ch000549.htm. Mac & Linux users can edit ~/.bash_profile and add a new line `export POSTGRES_LMNOP_USER_PASSWORD=yourpassword` or use your own prefered method to set an environment variable).
 
 (Mac users may need to run these commands; these one time 
 
