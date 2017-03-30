@@ -2,7 +2,7 @@
 
 ## Live Music Notes, Opinions, Photographs
 
-###Install postgresql
+### Install postgresql
 
 https://github.com/DjangoGirls/tutorial-extensions/blob/master/optional_postgresql_installation/README.md
 
@@ -41,6 +41,7 @@ other sql as expected
 
 postgres shell command cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
 
+### Environment variable 
 
 set environment variable called
 `POSTGRES_LMNOP_USER_PASSWORD`
@@ -57,7 +58,7 @@ And this when you start a new shell; or set it permanently in .bash_profile
 `export DYLD_FALLBACK_LIBRARY_PATH=/Library/PostgreSQL/9.5/lib:$DYLD_LIBRARY_PATH`
 )
 
-###To install
+### To install
 
 1. Create and activate a virtual environment. Use Python3 as the interpreter.
 
@@ -75,7 +76,7 @@ Site at
 
 127.0.0.1:8000
 
-###Create superuser
+### Create superuser
 
 from LMNOP/LMNOPSite
 
