@@ -41,9 +41,11 @@ other sql as expected
 
 postgres shell command cheatsheet - https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546
 
+
 set environment variable called
-POSTGRES_LMNOP_USER_PASSWORD
+`POSTGRES_LMNOP_USER_PASSWORD`
 with a value of the lmnop user's password
+
 
 
 (Mac users may need to run these commands; these one time 
