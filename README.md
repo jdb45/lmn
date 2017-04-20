@@ -11,6 +11,7 @@ Set admin password, remember it.
 Start postgres running
 
 `su postgres ` if on a mac/linux
+
 `pg_ctl start`  enter username and password
 
 start postgres shell with `psql`
