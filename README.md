@@ -81,23 +81,28 @@ Site at
 
 from LMNOP/LMNOPSite
 
+```
 python manage.py createsuperuser
+```
 
 enter username and password
 
-will be able to use these to log into admin console at
+Should be able to use these credentials to log into admin console at
 
 127.0.0.1:8000/admin
 
-To run tests  (some currently fail - see Issues)
+### To run tests  (some currently fail - see Issues)
 
+```
 python manage.py test lmn.tests
-
+```
 Or just some of the tests,
+
+```
 python manage.py test lmn.tests.test_views
 python manage.py test lmn.tests.test_views.TestUserAuthentication
 python manage.py test lmn.tests.test_views.TestUserAuthentication.test_user_registration_logs_user_in
-
+```
 
 
 ### Functional Tests with selenium
@@ -106,7 +111,9 @@ Install (upgrade to the latest version if you already have it) Firefox browser. 
 
 geckodriver needs to be in path or you need to tell Selenim where it is. Pick an approach: http://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
 
+```
 python manage.py runserver
+```
 
 ```
 python manage.py test lmn.tests.functional_tests
@@ -116,6 +123,8 @@ python manage.py test lmn.tests.functional_tests
 
 From directory with manage.py in it,
 
+```
 coverage run --source='.' manage.py test lmn.tests
 
 coverage report
+```
